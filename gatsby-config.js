@@ -23,7 +23,12 @@ module.exports = {
     `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
-      options: { plugins: [{ resolve: `gatsby-remark-prismjs` }] },
+      options: {
+        plugins: [
+          `@weknow/gatsby-remark-twitter`,
+          { resolve: `gatsby-remark-prismjs` },
+        ],
+      },
     },
     `gatsby-plugin-sharp`,
     {
