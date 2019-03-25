@@ -2,6 +2,7 @@
 title: Premature Optimization - Should we do it?
 description: I dive into the difference between optimization and refactoring and how they affect development.
 date: "2017-07-10"
+image: cover.jpeg
 tags: ["programming"]
 ---
 

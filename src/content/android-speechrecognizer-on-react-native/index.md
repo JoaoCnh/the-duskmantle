@@ -2,6 +2,7 @@
 title: Android SpeechRecognizer on React Native
 description: A package to enable SpeechRecognizer for React Native.
 date: "2017-07-05"
+image: cover.jpeg
 tags: ["javascript", "react", "react native", "mobile"]
 ---
 
