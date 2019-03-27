@@ -12,6 +12,7 @@
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.10",
     "gatsby-plugin-sharp": "^2.0.30",
+    "gatsby-remark-images": "^3.0.10",
     "gatsby-remark-prismjs": "^3.2.6",
     "gatsby-source-filesystem": "^2.0.27",
     "gatsby-transformer-remark": "^2.3.8",
@@ -35,6 +36,7 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
+    "now-build": "npm run build",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "repository": {
