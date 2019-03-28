@@ -6,11 +6,13 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org" className={styles.link}>
-          Gatsby
-        </a>
+        <small>
+          © {new Date().getFullYear()}, Built with
+          {` `}
+          <a href="https://www.gatsbyjs.org" className={styles.link}>
+            Gatsby
+          </a>
+        </small>
       </div>
     </footer>
   )
