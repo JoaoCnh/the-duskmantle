@@ -12,6 +12,8 @@
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.10",
     "gatsby-plugin-sharp": "^2.0.30",
+    "gatsby-remark-embed-video": "^1.7.1",
+    "gatsby-remark-figure-caption": "^2.0.0",
     "gatsby-remark-images": "^3.0.10",
     "gatsby-remark-prismjs": "^3.2.6",
     "gatsby-source-filesystem": "^2.0.27",

@@ -7,7 +7,8 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <small>
-          © {new Date().getFullYear()}, Built with
+          Made with <span role="img">❤</span> © {new Date().getFullYear()},
+          Built with
           {` `}
           <a href="https://www.gatsbyjs.org" className={styles.link}>
             Gatsby

@@ -27,9 +27,21 @@ module.exports = {
         plugins: [
           `gatsby-remark-images`,
           `@weknow/gatsby-remark-twitter`,
+          {
+            resolve: "gatsby-remark-embed-video",
+            options: {
+              width: 800,
+              related: false,
+              noIframeBorder: true,
+            },
+          },
           { resolve: `gatsby-remark-prismjs` },
         ],
       },
+    },
+    {
+      resolve: `gatsby-remark-figure-caption`,
+      options: { figureClassName: "md-figure" },
     },
     `gatsby-plugin-sharp`,
     {
